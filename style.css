@@ -21,3 +21,8 @@ main {
    height: 500px;
 
 }
+
+#profileName{
+ display: flex;
+
+}
