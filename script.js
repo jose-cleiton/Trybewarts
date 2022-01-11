@@ -12,3 +12,15 @@ document.getElementById('top-button').addEventListener('click', function () {
     }
     
 });
+let butao = document.getElementById('submit-btn');
+     butao.disabled = true;
+
+document.getElementById('agreement').addEventListener('click', function(){
+
+    if(document.getElementById('agreement').value === '') {
+        butao.disabled = true;
+    } else{
+        butao.disabled = false;
+    }
+
+})    
