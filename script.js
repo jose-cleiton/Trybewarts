@@ -1,6 +1,6 @@
 
 document.getElementById('top-button').addEventListener('click', function () {
-    let email = document.getElementById('input-email');
+    let email = document.getElementById('input-top-email');
     let texto = email.value;
     let senha = document.getElementById('input-senha');
     let textoSenha = senha.value;
