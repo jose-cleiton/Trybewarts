@@ -22,7 +22,10 @@ main {
 
 }
 
-#profileName{
+#profileName {
  display: flex;
 
+}
+#emiHouse{
+    display: flex;
 }
