@@ -1,37 +1,41 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(50, 167, 145)
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
 }
-.trybewarts-login{
-    display: flex;
+
+.trybewarts-login {
+  display: flex;
 }
 
 main {
-    display: flex;
-}
-#evaluation-form{
-    display: flex;
-    flex-direction: column;
-    width: 675px;
+  display: flex;
 }
 
-#trybewarts-forms-logo{
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
 
-   height: 500px;
+#trybewarts-forms-logo {
+  height: 500px;
 
 }
 
 #profileName {
- display: flex;
+  display: flex;
 
 }
-#emiHouse{
-    display: flex;
+
+#emiHouse {
+  display: flex;
 }
+
 #rate {
-    display: flex;
+  display: flex;
 }
+
 #deAcordo {
-    display: flex;
+  display: flex;
 }
