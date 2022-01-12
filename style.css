@@ -39,3 +39,8 @@ main {
 #deAcordo {
   display: flex;
 }
+
+#familyStacks {
+  display: flex;
+  flex-direction: column;
+}
