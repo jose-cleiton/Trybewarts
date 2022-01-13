@@ -1,15 +1,63 @@
+body {
+  background-color: whitesmoke;
+  margin: 0%;
+}
+
 .header {
+  padding: 6px 30px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-header-logo {
+  height: 90px;
+}
+
+#trybewarts-header-title {
+  margin: auto;
+  font-size: 50px;
+  color: white;
+}
+
+#input-top-email {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 190px;
+}
+
+#input-senha {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 195px;
+  margin-left: 14px;
 }
 
 .trybewarts-login {
   display: flex;
 }
 
+#top-button {
+  font-size: 20px;
+  color: white;
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  height: 50px;
+  width: 190px;
+  margin-left: 14px;
+}
+
 main {
   display: flex;
+  justify-content: space-around;
+}
+
+#title {
+  margin: 47px auto;
+  text-align: center;
 }
 
 #evaluation-form {
@@ -20,19 +68,43 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
-
 }
 
 #profileName {
   display: flex;
+}
 
+#input-name , #input-lastname , #input-email {
+  border-radius: 10px;
+  margin-right: 3px;
+  height: 38px;
+  padding: 10px;
+  font-size: 16px;
+  width: 365px;
 }
 
 #emiHouse {
+  margin-top: 17px;
+  align-items: center;
   display: flex;
 }
 
+#house {
+  padding: 10px;
+  height: 60px;
+  background-color: white;
+  width: 330px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+label {
+  line-height: 55px;
+  font-size: 21px;
+}
+
 #rate {
+  justify-content: space-between;
   display: flex;
 }
 
@@ -40,12 +112,59 @@ main {
   display: flex;
 }
 
+#label-family {
+  width: max-content;
+}
+
 #familyStacks {
   display: flex;
   flex-direction: column;
 }
 
+#IWant {
+  width: 470px;
+}
+
 #familyAndIWant {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+#IW1 {
+  height: 123px;
+  width: 278px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.linha {
+  margin: 23px auto;
+  width: 675px;
+  border: 1px solid black;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+}
+
+textarea {
+  padding: 10px;
+}
+
+#submit-btn {
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+}
+
+footer {
+  font-size: 28px;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(47, 47, 47);
+  padding: 10px;
+  text-align: center;
 }
