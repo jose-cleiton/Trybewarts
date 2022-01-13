@@ -14,9 +14,12 @@ const butao = document.getElementById('submit-btn');
 butao.disabled = true;
 
 document.getElementById('agreement').addEventListener('click', () => {
-  if (document.getElementById('agreement').value === '') {
-    butao.disabled = true;
-  } else {
+  const checkbox = document.getElementById('agreement').checked;
+  if (checkbox === true) {
     butao.disabled = false;
+    butao.style.backgroundColor = 'rebeccapurple';
+  } else {
+    butao.disabled = true;
+    butao.style.backgroundColor = 'rgb(255, 255, 255)';
   }
 });
