@@ -12,7 +12,8 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-# Sumário
+
+# Sumário 
 
 * [Habilidades](#habilidades)
 * [Entregáveis](#entregáveis)
